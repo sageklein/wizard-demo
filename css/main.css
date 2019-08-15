@@ -52,12 +52,18 @@ h1 {
 .flex-container {
     display: flex;
     width: 100%;
-    background-color: rgba(169, 183, 247, 0.849);
+    background-color: rgba(169, 218, 247, 0.849);
+}
+.flex-item {
+    background-color: rgb(255, 233, 205);
+    width: 30%;
+    margin: 1em;
+    text-align: center;
 }
 
-main {
-    flex: 2;
-    margin: 1em;
+.section-item {
+    margin: 0 auto;
+    width: 100%;
 }
 
 aside {
